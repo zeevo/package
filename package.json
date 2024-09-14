@@ -1,5 +1,5 @@
 {
-  "name": "pack",
+  "name": "package",
   "private": true,
   "scripts": {
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
