@@ -1,0 +1,19 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "@package/eslint-config": "workspace:*",
+    "@package/typescript-config": "workspace:*",
+    "eslint": "^8",
+    "typescript": "^5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
